@@ -33,7 +33,6 @@ build_SUBDIRS :=  \
 	System.Numerics \
 	System.Xml.Linq \
 	System.IO.Compression \
-	System.Drawing			\
 	Mono.Cecil \
 	$(MCS_MODE_dirs) \
 	Mono.CompilerServices.SymbolWriter	\
@@ -127,7 +126,6 @@ monotouch_tv_runtime_dirs := $(monotouch_runtime_dirs)
 
 winaot_dirs := \
 	$(mobile_common_dirs)	\
-	System.Drawing			\
 	$(pcl_facade_dirs)
 
 xammac_4_5_dirs := \
@@ -188,7 +186,6 @@ net_4_x_dirs := \
 	System.Core			\
 	System.Security			\
 	System.Configuration	\
-	System.Drawing			\
 	System.IO.Compression 		\
 	System.IO.Compression.FileSystem \
 	System.Transactions		\
@@ -218,7 +215,6 @@ net_4_x_dirs := \
 	Mono.Messaging			\
 	System.Messaging	        \
 	System.ServiceProcess           \
-	System.Drawing.Design		\
 	ICSharpCode.SharpZipLib		\
 	IBM.Data.DB2			\
 	CustomMarshalers		\
@@ -331,7 +327,6 @@ xbuild_4_0_dirs := \
 
 orbis_dirs := \
 	$(filter-out Microsoft.CSharp Mono.CSharp Mono.Data.Sqlite,$(mobile_common_dirs))	\
-	System.Drawing		\
 	$(pcl_facade_dirs)
 
 monodroid_SUBDIRS := $(monodroid_dirs)
